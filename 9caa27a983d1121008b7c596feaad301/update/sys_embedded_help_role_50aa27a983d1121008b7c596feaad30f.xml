@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1542827_proper_0.employees" name="x_1542827_proper_0.employees">54aa27a983d1121008b7c596feaad30e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 12:53:19</sys_created_on>
+        <sys_id>50aa27a983d1121008b7c596feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>54aa27a983d1121008b7c596feaad30e</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_embedded_help_role_50aa27a983d1121008b7c596feaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 12:53:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

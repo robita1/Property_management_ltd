@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Maintenance">a5aa143d831d121008b7c596feaad36e</catalog_item>
+        <catalog_variable>IO:d728a0f183dd121008b7c596feaad362</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:01:31</sys_created_on>
+        <sys_id>cc21fcb98311521008b7c596feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>service</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cc21fcb98311521008b7c596feaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:01:31</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide services if Inspection is picked ">73e070b98311521008b7c596feaad34f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>service</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc21fcb98311521008b7c596feaad392"/>
+</record_update>

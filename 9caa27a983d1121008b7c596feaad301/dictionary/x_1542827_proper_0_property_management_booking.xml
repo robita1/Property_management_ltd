@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b00f67298315121008b7c596feaad3f6" label="Property Management Booking" max_length="40" name="x_1542827_proper_0_property_management_booking" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" max_length="40" name="urgency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="P3 Normal" sequence="2" value="p3 normal"/>
+                <element inactive_on_update="false" label="P2 High" sequence="1" value="p2 high"/>
+                <element inactive_on_update="false" label="P1 Very High" sequence="0" value="p1 very high"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="email" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="255" name="description" type="string_full_utf8"/>
+        <element attributes="encode_utf8=false" label="Email" max_length="32" name="email" reference="x_1542827_proper_0_tenants_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Journal" max_length="4000" name="journal" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Services" mandatory="true" max_length="40" name="service" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plumbing" sequence="1" value="plumbing"/>
+                <element inactive="true" inactive_on_update="true" label="Struture" sequence="0" value="struture"/>
+                <element inactive_on_update="false" label="Appliance" sequence="2" value="appliance"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Structure" sequence="0" value="structure"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Inspection Date/Time" mandatory="true" max_length="40" name="inspection_date_time" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="closed complete"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="2" value="closed incomplete"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tenant Full Name" max_length="32" name="tenant_full_name" reference="x_1542827_proper_0_tenants_details" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Services" mandatory="true" max_length="40" name="type_of_serivces" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Maintenance" sequence="0" value="maintenance"/>
+                <element inactive_on_update="false" label="Inspection" sequence="1" value="inspection"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_group"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="email"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index5">
+            <element name="tenant_full_name"/>
+        </index>
+    </element>
+</database>

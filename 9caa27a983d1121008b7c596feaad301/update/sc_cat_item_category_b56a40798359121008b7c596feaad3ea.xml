@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Handyman Insurance">be59443d8319121008b7c596feaad3d0</sc_cat_item>
+        <sc_category display_value="Property Management Services Ltd">4ed6cc798319121008b7c596feaad35b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 15:12:08</sys_created_on>
+        <sys_id>b56a40798359121008b7c596feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property Management Services Ltd.Handyman Insurance</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sc_cat_item_category_b56a40798359121008b7c596feaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 15:12:08</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
