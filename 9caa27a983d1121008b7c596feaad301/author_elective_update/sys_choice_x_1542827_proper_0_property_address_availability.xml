@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="availability" table="x_1542827_proper_0_property_address" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>availability</element>
+            <name>x_1542827_proper_0_property_address</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-18 12:16:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>availability</sys_name>
+            <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+            <sys_update_name>sys_choice_x_1542827_proper_0_property_address_availability</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-18 12:16:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:25:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:25:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rented</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>rented</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:25:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_1542827_proper_0_property_address</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 20:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 20:50:53</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

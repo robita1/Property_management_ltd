@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1542827_proper_0_tenants_details</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Splitting address for tenanats details</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+var preferredAddress = current.full_address;
+var splitedAddress = preferredAddress.split(",");
+
+            current.street = splitedAddress[0].trim(); 
+            current.city = splitedAddress[1].trim(); 
+            current.country_code = splitedAddress[2].trim(); 
+            current.post_code = splitedAddress[3].trim(); 
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 21:14:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b450731a83d1921008b7c596feaad3f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Splitting address for tenanats details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_script_b450731a83d1921008b7c596feaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 21:15:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b450731a83d1921008b7c596feaad3f1"/>
+</record_update>

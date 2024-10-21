@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Property Management Services Ltd">4ed6cc798319121008b7c596feaad35b</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -72,7 +72,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -91,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 16:27:23</sys_created_on>
         <sys_id>a5aa143d831d121008b7c596feaad36e</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Maintenance</sys_name>
         <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>sc_cat_item_producer_a5aa143d831d121008b7c596feaad36e</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-10-17 18:01:31</sys_updated_on>
+        <sys_updated_on>2024-10-18 15:20:19</sys_updated_on>
         <table_name>x_1542827_proper_0_property_management_booking</table_name>
         <taxonomy_topic/>
         <template/>
@@ -106,7 +106,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>34</version>
+        <version>38</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

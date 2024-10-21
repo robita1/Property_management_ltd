@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1542827_proper_0_property_address</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 13:03:00</sys_created_on>
+        <sys_id>cedc6b618315121008b7c596feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1542827_proper_0_property_address</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_security_acl_cedc6b618315121008b7c596feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 13:03:00</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</application>
+        <file_path/>
+        <instance_id>4d4b0ac61b9a869039a54089bd4bcbf1</instance_id>
+        <instance_name>dev272968</instance_name>
+        <name>sys_security_acl_cedc6b618315121008b7c596feaad384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>x_1542827_proper_0_property_address</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-17 13:03:00</sys_created_on><sys_id>cedc6b618315121008b7c596feaad384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1542827_proper_0_property_address</sys_name><sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package><sys_policy/><sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope><sys_update_name>sys_security_acl_cedc6b618315121008b7c596feaad384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-17 13:03:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>714666994</payload_hash>
+        <record_name>x_1542827_proper_0_property_address</record_name>
+        <reverted_from/>
+        <source>10aa27a983d1121008b7c596feaad306</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 13:03:00</sys_created_on>
+        <sys_id>cadc6b618315121008b7c596feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929a9308ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 13:03:00</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>cedc6b619b151210973e36ede9c41387</update_guid>
+        <update_guid_history>cedc6b619b151210973e36ede9c41387:714666994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 20:19:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0b08557d7d9c47eababd0175bdaa1624</sys_id>
+        <sys_metadata>cedc6b618315121008b7c596feaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1542827_proper_0_property_address</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_parent display_value="">c8dce3618315121008b7c596feaad379</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_scope_delete display_value="">2ed4618112eb4004a458ccae47dadd90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_cedc6b618315121008b7c596feaad384</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_cedc6b618315121008b7c596feaad384">cadc6b618315121008b7c596feaad388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 20:19:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

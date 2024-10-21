@@ -37,7 +37,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 17:24:55</sys_created_on>
         <sys_id>0fa8acf183dd121008b7c596feaad3e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>item_option_new_0fa8acf183dd121008b7c596feaad3e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 17:39:52</sys_updated_on>
+        <sys_updated_on>2024-10-18 15:11:09</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

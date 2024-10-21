@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>sys_dictionary_x_1542827_proper_0_property_management_booking_assigned_to</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 16:46:20</sys_updated_on>
+        <sys_updated_on>2024-10-20 14:34:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule">
+    <sys_report_mpivot_rule action="DELETE">
+        <bg_color>background-color:</bg_color>
+        <bg_color_id/>
+        <color>background-color:</color>
+        <color_id/>
+        <operator>between</operator>
+        <order/>
+        <report_id display_value="Number of Bookings">f961f0828399121008b7c596feaad34d</report_id>
+        <sys_class_name>sys_report_mpivot_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 13:10:25</sys_created_on>
+        <sys_id>6428b08e83d9121008b7c596feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>between</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_report_mpivot_rule_6428b08e83d9121008b7c596feaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 13:10:25</sys_updated_on>
+        <value1>6</value1>
+        <value2>11</value2>
+    </sys_report_mpivot_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</application>
+        <file_path/>
+        <instance_id>4d4b0ac61b9a869039a54089bd4bcbf1</instance_id>
+        <instance_name>dev272968</instance_name>
+        <name>sys_report_mpivot_rule_6428b08e83d9121008b7c596feaad3ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule"><sys_report_mpivot_rule action="INSERT_OR_UPDATE"><bg_color>background-color:</bg_color><bg_color_id/><color>background-color:</color><color_id/><operator>between</operator><order/><report_id display_value="Number of Bookings">f961f0828399121008b7c596feaad34d</report_id><sys_class_name>sys_report_mpivot_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-18 13:10:25</sys_created_on><sys_id>6428b08e83d9121008b7c596feaad3ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>between</sys_name><sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package><sys_policy/><sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope><sys_update_name>sys_report_mpivot_rule_6428b08e83d9121008b7c596feaad3ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-18 13:10:25</sys_updated_on><value1>6</value1><value2>11</value2></sys_report_mpivot_rule></record_update>]]></payload>
+        <payload_hash>-1210145294</payload_hash>
+        <record_name>between</record_name>
+        <reverted_from/>
+        <source>c359f43d8351521008b7c596feaad3d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 13:10:25</sys_created_on>
+        <sys_id>a028b08e83d9121008b7c596feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929fc02ea00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 13:10:25</sys_updated_on>
+        <type>Multilevel Pivot Rule</type>
+        <update_guid>a428b08e02d9121030a35b61a572fccb</update_guid>
+        <update_guid_history>a428b08e02d9121030a35b61a572fccb:-1210145294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 13:17:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_mpivot_rule">sys_report_mpivot_rule</sys_db_object>
+        <sys_id>5d6cc645831543e2ac1ed053a86d3579</sys_id>
+        <sys_metadata>6428b08e83d9121008b7c596feaad3ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>between</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_scope_delete display_value="">2ed4618112eb4004a458ccae47dadd90</sys_scope_delete>
+        <sys_update_name>sys_report_mpivot_rule_6428b08e83d9121008b7c596feaad3ca</sys_update_name>
+        <sys_update_version display_value="sys_report_mpivot_rule_6428b08e83d9121008b7c596feaad3ca">a028b08e83d9121008b7c596feaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 13:17:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

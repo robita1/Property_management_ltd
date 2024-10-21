@@ -1,0 +1,2845 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5986000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>handyman_insurance</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"329be551-fde5-4e9e-836b-976b7ad8a22e":[null],"6d935901-c9f4-47aa-9123-8a66186a5583":["ah_to"],"fd14e52c-e8cf-43a3-9893-3c33729e35ee":["conditions"],"42266ae0-c2c4-4b4d-9627-f37b85e1382a":["ah_to"]}},{"name":"fd14e52c-e8cf-43a3-9893-3c33729e35ee.Records","label":"1 - Look Up Records➛Tenants Details  Records","reference":"x_1542827_proper_0_tenants_details","reference_display":"Tenants Details ","type":"records","base_type":"records","usedInstances":{"fadea690-5c50-4fdf-bb9c-7a945c99fb3a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":["record"],"432e9155-fca6-46ca-a4d0-9a418b78c5cc":["record"],"329be551-fde5-4e9e-836b-976b7ad8a22e":["record"],"bad2ed4f-05ef-427f-8b80-c13c5282b2d8":["ah_requested_item"],"6d935901-c9f4-47aa-9123-8a66186a5583":["record"],"87bbff3f-956c-4b67-8171-7351acbffa3f":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":[null],"6d935901-c9f4-47aa-9123-8a66186a5583":[null],"329be551-fde5-4e9e-836b-976b7ad8a22e":[null]}},{"name":"Service Catalog_1.request_item.requested_for.first_name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":[null],"329be551-fde5-4e9e-836b-976b7ad8a22e":[null]}},{"name":"{{static.514820468319121008b7c596feaad384}}","label":"Robel Kibrom","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"432e9155-fca6-46ca-a4d0-9a418b78c5cc":["approval_conditions"]}},{"name":"432e9155-fca6-46ca-a4d0-9a418b78c5cc.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fa9061fa-5a6d-400f-995e-b5a99b244b0a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>dbe9887a83511a1008b7c596feaad35b</master_snapshot>
+        <name>Handyman Insurance </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>bfe90c7a83511a1008b7c596feaad343</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:08:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63c1443683ddd61008b7c596feaad351</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Handyman Insurance </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_hub_flow_63c1443683ddd61008b7c596feaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=63c1443683ddd61008b7c596feaad351"/>
+    <sys_variable_value action="delete_multiple" query="document_key=63c1443683ddd61008b7c596feaad351"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfe90c7a83511a1008b7c596feaad343</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:30</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=63c1443683ddd61008b7c596feaad351"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=63c1443683ddd61008b7c596feaad351^sys_idNOT IN9f48c07a83111a1008b7c596feaad334"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9f48c07a83111a1008b7c596feaad334</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9f48c07a83111a1008b7c596feaad334"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=63c1443683ddd61008b7c596feaad351"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=63c1443683ddd61008b7c596feaad351^sys_idNOT IN23c1443683ddd61008b7c596feaad353"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>63c1443683ddd61008b7c596feaad351</id>
+        <name>Handyman Insurance </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:08:30</sys_created_on>
+        <sys_id>23c1443683ddd61008b7c596feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:08:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=23c1443683ddd61008b7c596feaad353"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=63c1443683ddd61008b7c596feaad351^sys_idNOT IN5348887a83ddd61008b7c596feaad3c7,df48c07a83111a1008b7c596feaad32b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</model>
+        <model_id>63c1443683ddd61008b7c596feaad351</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:52</sys_created_on>
+        <sys_id>5348887a83ddd61008b7c596feaad3c7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5348887a83ddd61008b7c596feaad3c7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</model>
+        <model_id>63c1443683ddd61008b7c596feaad351</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>df48c07a83111a1008b7c596feaad32b</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=df48c07a83111a1008b7c596feaad32b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=63c1443683ddd61008b7c596feaad351"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=63c1443683ddd61008b7c596feaad351"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=63c1443683ddd61008b7c596feaad351^sys_idNOT IN2b48c07a83111a1008b7c596feaad398,6b48c07a83111a1008b7c596feaad3be,9f48c07a83111a1008b7c596feaad349,a348c07a83111a1008b7c596feaad3f5,d748c07a83111a1008b7c596feaad372,eb48c07a83111a1008b7c596feaad3e0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2b48c07a83111a1008b7c596feaad398</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>432e9155-fca6-46ca-a4d0-9a418b78c5cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b48c07a83111a1008b7c596feaad398"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b48c07a83111a1008b7c596feaad398</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2b48c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b48c07a83111a1008b7c596feaad398</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6748c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b48c07a83111a1008b7c596feaad398</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>af48c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b48c07a83111a1008b7c596feaad398</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2b48c07a83111a1008b7c596feaad398"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2348c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{static.514820468319121008b7c596feaad384}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2748c07a83111a1008b7c596feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6f48c07a83111a1008b7c596feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>e748c07a83111a1008b7c596feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>ab48c07a83111a1008b7c596feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2b48c07a83111a1008b7c596feaad398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>e348c07a83111a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2b48c07a83111a1008b7c596feaad398"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2b48c07a83111a1008b7c596feaad398"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6b48c07a83111a1008b7c596feaad3be</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>329be551-fde5-4e9e-836b-976b7ad8a22e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6b48c07a83111a1008b7c596feaad3be"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b48c07a83111a1008b7c596feaad3be</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2748c07a83111a1008b7c596feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b48c07a83111a1008b7c596feaad3be</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6348c07a83111a1008b7c596feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b48c07a83111a1008b7c596feaad3be</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>e748c07a83111a1008b7c596feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>Approved!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6b48c07a83111a1008b7c596feaad3be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6b48c07a83111a1008b7c596feaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6b48c07a83111a1008b7c596feaad3d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db4d6e4a-8462-48e9-bef2-50b82a1df08c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:db4d6e4a-8462-48e9-bef2-50b82a1df08c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_db4d6e4a-8462-48e9-bef2-50b82a1df08c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Congratualtion your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ef850ba9-b1cd-4309-bc9f-4de92b247322}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ef850ba9-b1cd-4309-bc9f-4de92b247322}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ef850ba9-b1cd-4309-bc9f-4de92b247322" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been approved and will be active within 24 hours.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6b48c07a83111a1008b7c596feaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>ef48c07a83111a1008b7c596feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6b48c07a83111a1008b7c596feaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>a348c07a83111a1008b7c596feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6b48c07a83111a1008b7c596feaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6748c07a83111a1008b7c596feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6b48c07a83111a1008b7c596feaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2f48c07a83111a1008b7c596feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b48c07a83111a1008b7c596feaad3be"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b48c07a83111a1008b7c596feaad3be"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>to check if the buyer an existant tenant</comment>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9f48c07a83111a1008b7c596feaad349</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>fd14e52c-e8cf-43a3-9893-3c33729e35ee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9f48c07a83111a1008b7c596feaad349"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9f48c07a83111a1008b7c596feaad349</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>1f48c07a83111a1008b7c596feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>x_1542827_proper_0_tenants_details</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9f48c07a83111a1008b7c596feaad349"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9f48c07a83111a1008b7c596feaad349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9348c07a83111a1008b7c596feaad34c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>email={{Service Catalog_1.request_item.requested_for.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9f48c07a83111a1008b7c596feaad349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9b48c07a83111a1008b7c596feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9f48c07a83111a1008b7c596feaad349"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9f48c07a83111a1008b7c596feaad349"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>a348c07a83111a1008b7c596feaad3f5</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>6d935901-c9f4-47aa-9123-8a66186a5583</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a348c07a83111a1008b7c596feaad3f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a348c07a83111a1008b7c596feaad3f5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>2348c07a83111a1008b7c596feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a348c07a83111a1008b7c596feaad3f5</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>6f48c07a83111a1008b7c596feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a348c07a83111a1008b7c596feaad3f5</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>e348c07a83111a1008b7c596feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <value>Activation!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a348c07a83111a1008b7c596feaad3f5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>a348c07a83111a1008b7c596feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>6748c07a83111a1008b7c596feaad3f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9ca77f5d-6ea6-431d-a56b-cedd1d46415b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9ca77f5d-6ea6-431d-a56b-cedd1d46415b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_9ca77f5d-6ea6-431d-a56b-cedd1d46415b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d165bd93-81f7-4cf8-9b1a-642991809796}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d165bd93-81f7-4cf8-9b1a-642991809796}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d165bd93-81f7-4cf8-9b1a-642991809796" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="color: rgb(var(--now-color_text--primary, 22, 27, 28));"&gt;&amp;nbsp;is now active. You can book a service anytime you have an issue through our portal at&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff0000;"&gt;&lt;strong&gt;&lt;a style="color: #ff0000;" href="https://dev272968.service-now.com/sp?id=sc_cat_item&amp;amp;sys_id=a5aa143d831d121008b7c596feaad36e&amp;amp;sysparm_category=4ed6cc798319121008b7c596feaad35b"&gt;Click here to book&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>a348c07a83111a1008b7c596feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>a348c07a83111a1008b7c596feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>ef48c07a83111a1008b7c596feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a348c07a83111a1008b7c596feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>a348c07a83111a1008b7c596feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a348c07a83111a1008b7c596feaad3f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>2b48c07a83111a1008b7c596feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a348c07a83111a1008b7c596feaad3f5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a348c07a83111a1008b7c596feaad3f5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>d748c07a83111a1008b7c596feaad372</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>42266ae0-c2c4-4b4d-9627-f37b85e1382a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d748c07a83111a1008b7c596feaad372"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d748c07a83111a1008b7c596feaad372</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2b48c07a83111a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d748c07a83111a1008b7c596feaad372</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>6748c07a83111a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d748c07a83111a1008b7c596feaad372</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d748c07a83111a1008b7c596feaad372"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>d748c07a83111a1008b7c596feaad372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>1f48c07a83111a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:daa70e03-f3ca-4a3a-b111-7e0dff7e53cb}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:daa70e03-f3ca-4a3a-b111-7e0dff7e53cb}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_daa70e03-f3ca-4a3a-b111-7e0dff7e53cb" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0103f3d6-43cc-4e15-ab2c-7d0558758ec8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0103f3d6-43cc-4e15-ab2c-7d0558758ec8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0103f3d6-43cc-4e15-ab2c-7d0558758ec8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been declined. Handyman insurance is available exclusively to current tenants. For further details, please reach out to Property Management Ltd.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd for more information&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>d748c07a83111a1008b7c596feaad372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>e348c07a83111a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>d748c07a83111a1008b7c596feaad372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9748c07a83111a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d748c07a83111a1008b7c596feaad372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>5b48c07a83111a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d748c07a83111a1008b7c596feaad372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>df48c07a83111a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d748c07a83111a1008b7c596feaad372"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d748c07a83111a1008b7c596feaad372"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad3e0</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:58:48</sys_updated_on>
+        <ui_id>bad2ed4f-05ef-427f-8b80-c13c5282b2d8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eb48c07a83111a1008b7c596feaad3e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eb48c07a83111a1008b7c596feaad3e0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>ef48c07a83111a1008b7c596feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <value>Check if there are enough workers </value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eb48c07a83111a1008b7c596feaad3e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>eb48c07a83111a1008b7c596feaad3e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>6f48c07a83111a1008b7c596feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>eb48c07a83111a1008b7c596feaad3e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>ab48c07a83111a1008b7c596feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb48c07a83111a1008b7c596feaad3e0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eb48c07a83111a1008b7c596feaad3e0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=63c1443683ddd61008b7c596feaad351"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=63c1443683ddd61008b7c596feaad351^sys_idNOT IN2348c07a83111a1008b7c596feaad3b6,2748c07a83111a1008b7c596feaad390,df48c07a83111a1008b7c596feaad34e,eb48c07a83111a1008b7c596feaad3f9,f109043283511a1008b7c596feaad314"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2748c07a83111a1008b7c596feaad3b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2348c07a83111a1008b7c596feaad3b6</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2348c07a83111a1008b7c596feaad3b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2348c07a83111a1008b7c596feaad3b6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2348c07a83111a1008b7c596feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>approved </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2348c07a83111a1008b7c596feaad3b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2348c07a83111a1008b7c596feaad3b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>af48c07a83111a1008b7c596feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{432e9155-fca6-46ca-a4d0-9a418b78c5cc.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2348c07a83111a1008b7c596feaad3b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2348c07a83111a1008b7c596feaad3b6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2348c07a83111a1008b7c596feaad3b6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6348c07a83111a1008b7c596feaad38f</block>
+        <comment/>
+        <connected_to>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>2748c07a83111a1008b7c596feaad390</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2748c07a83111a1008b7c596feaad390"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2748c07a83111a1008b7c596feaad390"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2748c07a83111a1008b7c596feaad390"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d748c07a83111a1008b7c596feaad34d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>df48c07a83111a1008b7c596feaad34e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=df48c07a83111a1008b7c596feaad34e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>df48c07a83111a1008b7c596feaad34e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>db48c07a83111a1008b7c596feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <value>Requester is not from the tenants table send email</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df48c07a83111a1008b7c596feaad34e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>df48c07a83111a1008b7c596feaad34e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>5b48c07a83111a1008b7c596feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{fd14e52c-e8cf-43a3-9893-3c33729e35ee.Records}}ISEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>df48c07a83111a1008b7c596feaad34e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>9748c07a83111a1008b7c596feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=df48c07a83111a1008b7c596feaad34e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=df48c07a83111a1008b7c596feaad34e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e748c07a83111a1008b7c596feaad3f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>eb48c07a83111a1008b7c596feaad3f9</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <ui_id>c85896dd-ad2f-4e5b-96b3-b96be7ca6898</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eb48c07a83111a1008b7c596feaad3f9"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eb48c07a83111a1008b7c596feaad3f9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb48c07a83111a1008b7c596feaad3f9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f509043283511a1008b7c596feaad313</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:40:03</sys_created_on>
+        <sys_id>f109043283511a1008b7c596feaad314</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <ui_id>b1bf4a1f-1a9e-42f0-98ed-800ac72a42d0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f109043283511a1008b7c596feaad314"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f109043283511a1008b7c596feaad314"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f109043283511a1008b7c596feaad314"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=63c1443683ddd61008b7c596feaad351^sys_idNOT IN2f48047a83111a1008b7c596feaad317,6b48047a83111a1008b7c596feaad317,90ea40f283911a1008b7c596feaad33a,a348047a83111a1008b7c596feaad317,a748047a83111a1008b7c596feaad317,bf0c487a83911a1008b7c596feaad38c,c8ca4c7283911a1008b7c596feaad38b,eb48047a83111a1008b7c596feaad316,ef48047a83111a1008b7c596feaad317,f70c487a83911a1008b7c596feaad38c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>2f48047a83111a1008b7c596feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9ca77f5d-6ea6-431d-a56b-cedd1d46415b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>6b48047a83111a1008b7c596feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2d2b2f07-84f1-450b-81b8-d55d0c36fdfa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:48:08</sys_created_on>
+        <sys_id>90ea40f283911a1008b7c596feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:48:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5c0f08e9-61a9-45c0-bc5d-0a8d50f4b874</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>a348047a83111a1008b7c596feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>daa70e03-f3ca-4a3a-b111-7e0dff7e53cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>a748047a83111a1008b7c596feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>db4d6e4a-8462-48e9-bef2-50b82a1df08c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:18</sys_created_on>
+        <sys_id>bf0c487a83911a1008b7c596feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef850ba9-b1cd-4309-bc9f-4de92b247322</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:47:34</sys_created_on>
+        <sys_id>c8ca4c7283911a1008b7c596feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:47:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dd88c24d-05ff-4cf8-921f-d4afdd628093</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>eb48047a83111a1008b7c596feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0103f3d6-43cc-4e15-ab2c-7d0558758ec8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:54</sys_created_on>
+        <sys_id>ef48047a83111a1008b7c596feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b99cd47f-86f8-46c2-82a4-147a603353bf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>63c1443683ddd61008b7c596feaad351</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:18</sys_created_on>
+        <sys_id>f70c487a83911a1008b7c596feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d165bd93-81f7-4cf8-9b1a-642991809796</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=63c1443683ddd61008b7c596feaad351"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351^sys_idNOT IN5348c07a83111a1008b7c596feaad331,df48c07a83111a1008b7c596feaad329"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>5348c07a83111a1008b7c596feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:36:53</sys_created_on>
+        <sys_id>df48c07a83111a1008b7c596feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:36:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_63c1443683ddd61008b7c596feaad351"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_63c1443683ddd61008b7c596feaad351"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_63c1443683ddd61008b7c596feaad351"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>handyman_insurance</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"329be551-fde5-4e9e-836b-976b7ad8a22e":[null],"6d935901-c9f4-47aa-9123-8a66186a5583":["ah_to"],"fd14e52c-e8cf-43a3-9893-3c33729e35ee":["conditions"],"42266ae0-c2c4-4b4d-9627-f37b85e1382a":["ah_to"]}},{"name":"fd14e52c-e8cf-43a3-9893-3c33729e35ee.Records","label":"1 - Look Up Records➛Tenants Details  Records","reference":"x_1542827_proper_0_tenants_details","reference_display":"Tenants Details ","type":"records","base_type":"records","usedInstances":{"fadea690-5c50-4fdf-bb9c-7a945c99fb3a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":["record"],"432e9155-fca6-46ca-a4d0-9a418b78c5cc":["record"],"329be551-fde5-4e9e-836b-976b7ad8a22e":["record"],"bad2ed4f-05ef-427f-8b80-c13c5282b2d8":["ah_requested_item"],"6d935901-c9f4-47aa-9123-8a66186a5583":["record"],"87bbff3f-956c-4b67-8171-7351acbffa3f":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":[null],"6d935901-c9f4-47aa-9123-8a66186a5583":[null],"329be551-fde5-4e9e-836b-976b7ad8a22e":[null]}},{"name":"Service Catalog_1.request_item.requested_for.first_name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"42266ae0-c2c4-4b4d-9627-f37b85e1382a":[null],"329be551-fde5-4e9e-836b-976b7ad8a22e":[null]}},{"name":"{{static.514820468319121008b7c596feaad384}}","label":"Robel Kibrom","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"432e9155-fca6-46ca-a4d0-9a418b78c5cc":["approval_conditions"]}},{"name":"432e9155-fca6-46ca-a4d0-9a418b78c5cc.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fa9061fa-5a6d-400f-995e-b5a99b244b0a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Handyman Insurance </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbe9887a83511a1008b7c596feaad35b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN67e9c87a83511a1008b7c596feaad38e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>67e9c87a83511a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:22</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=67e9c87a83511a1008b7c596feaad38e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN9fe9887a83511a1008b7c596feaad35c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>dbe9887a83511a1008b7c596feaad35b</id>
+        <name>Handyman Insurance </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>9fe9887a83511a1008b7c596feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9fe9887a83511a1008b7c596feaad35c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=dbe9887a83511a1008b7c596feaad35b^sys_idNOT INd3e9887a83511a1008b7c596feaad35e,d3e9887a83511a1008b7c596feaad39b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</model>
+        <model_id>dbe9887a83511a1008b7c596feaad35b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>d3e9887a83511a1008b7c596feaad35e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d3e9887a83511a1008b7c596feaad35e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</model>
+        <model_id>dbe9887a83511a1008b7c596feaad35b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>d3e9887a83511a1008b7c596feaad39b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d3e9887a83511a1008b7c596feaad39b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN23e9c87a83511a1008b7c596feaad38b,63e9c87a83511a1008b7c596feaad30b,6fe9c87a83511a1008b7c596feaad382,ebe9c87a83511a1008b7c596feaad35e,efe9887a83511a1008b7c596feaad3f3,efe9c87a83511a1008b7c596feaad32f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>23e9c87a83511a1008b7c596feaad38b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>6d935901-c9f4-47aa-9123-8a66186a5583</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23e9c87a83511a1008b7c596feaad38b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23e9c87a83511a1008b7c596feaad38b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>63e9c87a83511a1008b7c596feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>Activation!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23e9c87a83511a1008b7c596feaad38b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6fe9c87a83511a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23e9c87a83511a1008b7c596feaad38b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>abe9c87a83511a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=23e9c87a83511a1008b7c596feaad38b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>23e9c87a83511a1008b7c596feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>a3e9c87a83511a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9ca77f5d-6ea6-431d-a56b-cedd1d46415b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9ca77f5d-6ea6-431d-a56b-cedd1d46415b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_9ca77f5d-6ea6-431d-a56b-cedd1d46415b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d165bd93-81f7-4cf8-9b1a-642991809796}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d165bd93-81f7-4cf8-9b1a-642991809796}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d165bd93-81f7-4cf8-9b1a-642991809796" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="color: rgb(var(--now-color_text--primary, 22, 27, 28));"&gt;&amp;nbsp;is now active. You can book a service anytime you have an issue through our portal at&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff0000;"&gt;&lt;strong&gt;&lt;a style="color: #ff0000;" href="https://dev272968.service-now.com/sp?id=sc_cat_item&amp;amp;sys_id=a5aa143d831d121008b7c596feaad36e&amp;amp;sysparm_category=4ed6cc798319121008b7c596feaad35b"&gt;Click here to book&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>23e9c87a83511a1008b7c596feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>2be9c87a83511a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>23e9c87a83511a1008b7c596feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>ebe9c87a83511a1008b7c596feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>23e9c87a83511a1008b7c596feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>23e9c87a83511a1008b7c596feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>67e9c87a83511a1008b7c596feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23e9c87a83511a1008b7c596feaad38b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23e9c87a83511a1008b7c596feaad38b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>63e9c87a83511a1008b7c596feaad30b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>42266ae0-c2c4-4b4d-9627-f37b85e1382a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=63e9c87a83511a1008b7c596feaad30b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>63e9c87a83511a1008b7c596feaad30b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>27e9c87a83511a1008b7c596feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>63e9c87a83511a1008b7c596feaad30b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>63e9c87a83511a1008b7c596feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>63e9c87a83511a1008b7c596feaad30b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>e7e9c87a83511a1008b7c596feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=63e9c87a83511a1008b7c596feaad30b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>63e9c87a83511a1008b7c596feaad30b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>6be9c87a83511a1008b7c596feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:daa70e03-f3ca-4a3a-b111-7e0dff7e53cb}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:daa70e03-f3ca-4a3a-b111-7e0dff7e53cb}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_daa70e03-f3ca-4a3a-b111-7e0dff7e53cb" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0103f3d6-43cc-4e15-ab2c-7d0558758ec8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0103f3d6-43cc-4e15-ab2c-7d0558758ec8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0103f3d6-43cc-4e15-ab2c-7d0558758ec8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been declined. Handyman insurance is available exclusively to current tenants. For further details, please reach out to Property Management Ltd.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd for more information&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>63e9c87a83511a1008b7c596feaad30b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>63e9c87a83511a1008b7c596feaad30b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>a3e9c87a83511a1008b7c596feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>63e9c87a83511a1008b7c596feaad30b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>a7e9c87a83511a1008b7c596feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>63e9c87a83511a1008b7c596feaad30b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>2fe9c87a83511a1008b7c596feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=63e9c87a83511a1008b7c596feaad30b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=63e9c87a83511a1008b7c596feaad30b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6fe9c87a83511a1008b7c596feaad382</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>bad2ed4f-05ef-427f-8b80-c13c5282b2d8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6fe9c87a83511a1008b7c596feaad382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6fe9c87a83511a1008b7c596feaad382</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>63e9c87a83511a1008b7c596feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>Check if there are enough workers </value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6fe9c87a83511a1008b7c596feaad382"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>6fe9c87a83511a1008b7c596feaad382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>6fe9c87a83511a1008b7c596feaad382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>2fe9c87a83511a1008b7c596feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6fe9c87a83511a1008b7c596feaad382"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6fe9c87a83511a1008b7c596feaad382"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>ebe9c87a83511a1008b7c596feaad35e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>329be551-fde5-4e9e-836b-976b7ad8a22e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ebe9c87a83511a1008b7c596feaad35e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ebe9c87a83511a1008b7c596feaad35e</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>2fe9c87a83511a1008b7c596feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>Approved!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ebe9c87a83511a1008b7c596feaad35e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6be9c87a83511a1008b7c596feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ebe9c87a83511a1008b7c596feaad35e</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>a7e9c87a83511a1008b7c596feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ebe9c87a83511a1008b7c596feaad35e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ebe9c87a83511a1008b7c596feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6fe9c87a83511a1008b7c596feaad360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db4d6e4a-8462-48e9-bef2-50b82a1df08c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:db4d6e4a-8462-48e9-bef2-50b82a1df08c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_db4d6e4a-8462-48e9-bef2-50b82a1df08c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Congratualtion your&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ef850ba9-b1cd-4309-bc9f-4de92b247322}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ef850ba9-b1cd-4309-bc9f-4de92b247322}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ef850ba9-b1cd-4309-bc9f-4de92b247322" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been approved and will be active within 24 hours.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Property Management Ltd&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ebe9c87a83511a1008b7c596feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>e3e9c87a83511a1008b7c596feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ebe9c87a83511a1008b7c596feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>e7e9c87a83511a1008b7c596feaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ebe9c87a83511a1008b7c596feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>abe9c87a83511a1008b7c596feaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ebe9c87a83511a1008b7c596feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>23e9c87a83511a1008b7c596feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ebe9c87a83511a1008b7c596feaad35e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ebe9c87a83511a1008b7c596feaad35e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>to check if the buyer an existant tenant</comment>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>efe9887a83511a1008b7c596feaad3f3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>fd14e52c-e8cf-43a3-9893-3c33729e35ee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efe9887a83511a1008b7c596feaad3f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efe9887a83511a1008b7c596feaad3f3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>27e9887a83511a1008b7c596feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value>x_1542827_proper_0_tenants_details</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=efe9887a83511a1008b7c596feaad3f3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>efe9887a83511a1008b7c596feaad3f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>efe9887a83511a1008b7c596feaad3f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>email={{Service Catalog_1.request_item.requested_for.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>efe9887a83511a1008b7c596feaad3f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>a3e9887a83511a1008b7c596feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efe9887a83511a1008b7c596feaad3f3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=efe9887a83511a1008b7c596feaad3f3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad32f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>432e9155-fca6-46ca-a4d0-9a418b78c5cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efe9c87a83511a1008b7c596feaad32f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efe9c87a83511a1008b7c596feaad32f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>23e9c87a83511a1008b7c596feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efe9c87a83511a1008b7c596feaad32f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>27e9c87a83511a1008b7c596feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efe9c87a83511a1008b7c596feaad32f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6fe9c87a83511a1008b7c596feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>efe9c87a83511a1008b7c596feaad32f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>e7e9c87a83511a1008b7c596feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=efe9c87a83511a1008b7c596feaad32f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>2be9c87a83511a1008b7c596feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{static.514820468319121008b7c596feaad384}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>2fe9c87a83511a1008b7c596feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>67e9c87a83511a1008b7c596feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>a3e9c87a83511a1008b7c596feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>efe9c87a83511a1008b7c596feaad32f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>ebe9c87a83511a1008b7c596feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efe9c87a83511a1008b7c596feaad32f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=efe9c87a83511a1008b7c596feaad32f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN27e9887a83511a1008b7c596feaad3cd,5fe9887a83511a1008b7c596feaad3b4,63e9887a83511a1008b7c596feaad3ca,67e9887a83511a1008b7c596feaad3d1,a7e9887a83511a1008b7c596feaad3ba"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2748c07a83111a1008b7c596feaad3b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>27e9887a83511a1008b7c596feaad3cd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=27e9887a83511a1008b7c596feaad3cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>27e9887a83511a1008b7c596feaad3cd</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>e3e9887a83511a1008b7c596feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value>approved </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=27e9887a83511a1008b7c596feaad3cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>27e9887a83511a1008b7c596feaad3cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>63e9887a83511a1008b7c596feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{432e9155-fca6-46ca-a4d0-9a418b78c5cc.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>27e9887a83511a1008b7c596feaad3cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>afe9887a83511a1008b7c596feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27e9887a83511a1008b7c596feaad3cd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27e9887a83511a1008b7c596feaad3cd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d748c07a83111a1008b7c596feaad34d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>5fe9887a83511a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5fe9887a83511a1008b7c596feaad3b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5fe9887a83511a1008b7c596feaad3b4</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>9fe9887a83511a1008b7c596feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <value>Requester is not from the tenants table send email</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fe9887a83511a1008b7c596feaad3b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5fe9887a83511a1008b7c596feaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>1fe9887a83511a1008b7c596feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{fd14e52c-e8cf-43a3-9893-3c33729e35ee.Records}}ISEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>5fe9887a83511a1008b7c596feaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>57e9887a83511a1008b7c596feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5fe9887a83511a1008b7c596feaad3b4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fe9887a83511a1008b7c596feaad3b4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6348c07a83111a1008b7c596feaad38f</block>
+        <comment/>
+        <connected_to>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>63e9887a83511a1008b7c596feaad3ca</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>ab1cf371-fd75-425c-9c82-9d6469e120ce</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=63e9887a83511a1008b7c596feaad3ca"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=63e9887a83511a1008b7c596feaad3ca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=63e9887a83511a1008b7c596feaad3ca"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e748c07a83111a1008b7c596feaad3f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fa9061fa-5a6d-400f-995e-b5a99b244b0a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>67e9887a83511a1008b7c596feaad3d1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>c85896dd-ad2f-4e5b-96b3-b96be7ca6898</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=67e9887a83511a1008b7c596feaad3d1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=67e9887a83511a1008b7c596feaad3d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=67e9887a83511a1008b7c596feaad3d1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f509043283511a1008b7c596feaad313</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Handyman Insurance ">dbe9887a83511a1008b7c596feaad35b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fadea690-5c50-4fdf-bb9c-7a945c99fb3a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>a7e9887a83511a1008b7c596feaad3ba</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 18:48:20</sys_updated_on>
+        <ui_id>b1bf4a1f-1a9e-42f0-98ed-800ac72a42d0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a7e9887a83511a1008b7c596feaad3ba"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a7e9887a83511a1008b7c596feaad3ba"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7e9887a83511a1008b7c596feaad3ba"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN221c0c7a83911a1008b7c596feaad35a,261c0c7a83911a1008b7c596feaad359,2a1c0c7a83911a1008b7c596feaad359,2e1c0c7a83911a1008b7c596feaad359,63e9c87a83511a1008b7c596feaad3b5,67e9c87a83511a1008b7c596feaad3b4,6fe9c87a83511a1008b7c596feaad3b4,e3e9c87a83511a1008b7c596feaad3b5,ebe9c87a83511a1008b7c596feaad3b4,efe9c87a83511a1008b7c596feaad3b4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:29</sys_created_on>
+        <sys_id>221c0c7a83911a1008b7c596feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef850ba9-b1cd-4309-bc9f-4de92b247322</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:29</sys_created_on>
+        <sys_id>261c0c7a83911a1008b7c596feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dd88c24d-05ff-4cf8-921f-d4afdd628093</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:29</sys_created_on>
+        <sys_id>2a1c0c7a83911a1008b7c596feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d165bd93-81f7-4cf8-9b1a-642991809796</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:53:29</sys_created_on>
+        <sys_id>2e1c0c7a83911a1008b7c596feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5c0f08e9-61a9-45c0-bc5d-0a8d50f4b874</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>63e9c87a83511a1008b7c596feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b99cd47f-86f8-46c2-82a4-147a603353bf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>67e9c87a83511a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0103f3d6-43cc-4e15-ab2c-7d0558758ec8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>6fe9c87a83511a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2d2b2f07-84f1-450b-81b8-d55d0c36fdfa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>e3e9c87a83511a1008b7c596feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9ca77f5d-6ea6-431d-a56b-cedd1d46415b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>ebe9c87a83511a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>db4d6e4a-8462-48e9-bef2-50b82a1df08c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>dbe9887a83511a1008b7c596feaad35b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:00</sys_created_on>
+        <sys_id>efe9c87a83511a1008b7c596feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:44:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>daa70e03-f3ca-4a3a-b111-7e0dff7e53cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b^sys_idNOT IN5fe9887a83511a1008b7c596feaad396,5fe9887a83511a1008b7c596feaad39f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>5fe9887a83511a1008b7c596feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:43:59</sys_created_on>
+        <sys_id>5fe9887a83511a1008b7c596feaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:43:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_dbe9887a83511a1008b7c596feaad35b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>63c1443683ddd61008b7c596feaad351</sys_id>
+        <latest_snapshot>dbe9887a83511a1008b7c596feaad35b</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch8-09-19-2024_09-27-2024_0148.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=63c1443683ddd61008b7c596feaad351^sys_idNOT IN77e90c7a83511a1008b7c596feaad344"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"77e90c7a83511a1008b7c596feaad344","name":"plan","plan_signature":null}}</plan>
+        <plan_id>63c1443683ddd61008b7c596feaad351</plan_id>
+        <snapshot>f9c6fb3a83d5121008b7c596feaad337</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 17:44:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77e90c7a83511a1008b7c596feaad344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 17:53:30</sys_updated_on>
+        <trigger display_value="">bfe90c7a83511a1008b7c596feaad343</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=63c1443683ddd61008b7c596feaad351"/>
+</record_update>

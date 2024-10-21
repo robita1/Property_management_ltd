@@ -8,17 +8,30 @@
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p style="text-align: center;">Handyman Insurance</p>]]></description>
+        <description><![CDATA[<p style="text-align: center;"><span style="text-decoration: underline; font-size: 12pt;"><strong>Handyman Insurance</strong></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">As part of your property management services we offer an <strong>Optional handyman Insurance</strong> for tenants, providing peace of mind for unexpected expected repair cost. This insurance is designed to cover wide range of common household maintenance issues that you may arise during your tenancy, ensuring quick and hassle-free repairs without the worry of unexpected expense.</span></p>
+<p style="text-align: left;"><strong><span style="text-decoration: underline;"><span style="font-size: 10pt;">Comprehensive Coverage:</span></span></strong></p>
+<ul style="list-style-position: inside;"><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Changing Light Bulbs: Whether it&#39;s a ceiling light or a difficult-to-reach fixture, our handyman will take care of it.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Fixing Loose Door Hinges: If your doors aren&#39;t closing property due to loose or squeaky hinges, we&#39;ll fix them promptly. </span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Unclogging Drains: Minor blockages in sinks, showers, or bathtubs can be quickly resolved to restore normal water flow.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Tightening Loose Cabinet Handles: Wobbly cabinet knobs or drawer pulls can be repaired to keep your kitchen or bathroom functional.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Assembling Furniture: Need help putting together new Furniture? Our handyman can assist with quick assembly jobs.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Hanging Pictures or Shelves: We&#39;ll ensure that your picture, shelves, or mirror are property installed and levelled.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Minor wall Repairs: Repairing small holes or cracks in walls, whether from nails or accidental damage.</span></li><li style="text-align: left; font-size: 10pt;"><span style="font-size: 10pt;">Weatherproofing Doors and windows: Minor adjustments like adding or fixing draft stoppers to keep your home comfortable.</span></li></ul>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: 10pt;">Fast and convenient:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">Tenants benefit from quick hassle-free service to insure covers that small but important tasks are handled swiftly, reducing any inconvenience.</span></p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="font-size: 10pt;">No Extra Charges:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">There is no need to worry about extra costs our instance covers all qualified repairs and services without the need for additional payments from tenants.</span></p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="font-size: 10pt;">Trusted Professionals:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">Repairs are handled by skilled handyman with a focus on quality workmanship and attention to detail for even the smallest task.</span></p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="font-size: 10pt;">Tailored Coverage Options:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">Tenants can select from a variety of coverage plans, giving them flexibility to match their need, whether it&#39;s basic plan of occasional jobs or a more comprehensive plan for regular maintenance.</span></p>
+<p> </p>
+<p style="text-align: left;"> </p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Handyman Insurance ">63c1443683ddd61008b7c596feaad351</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
-        <icon/>
+        <icon>780914ca8315121008b7c596feaad37d</icon>
         <ignore_price>false</ignore_price>
         <image/>
         <location/>
@@ -39,7 +52,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
-        <no_save_as_draft>false</no_save_as_draft>
+        <no_save_as_draft>true</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -58,7 +71,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description/>
+        <short_description>Optional Handyman Insurance to Tenanats</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -66,21 +79,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 15:12:07</sys_created_on>
         <sys_id>be59443d8319121008b7c596feaad3d0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Handyman Insurance</sys_name>
         <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>sc_cat_item_be59443d8319121008b7c596feaad3d0</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-10-17 15:26:24</sys_updated_on>
+        <sys_updated_on>2024-10-20 18:50:12</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>10</version>
+        <version>20</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
@@ -122,4 +135,43 @@
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#845c3e</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <hash>b7eb8a99ea7d7fc6c60307f344eb9c5a767205f2dde69cc28cf6e80eb722ff3d</hash>
+        <image_height>140</image_height>
+        <image_width>360</image_width>
+        <size_bytes>9566</size_bytes>
+        <size_compressed>9569</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 10:54:27</sys_created_on>
+        <sys_id>780914ca8315121008b7c596feaad37d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 10:54:27</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>be59443d8319121008b7c596feaad3d0</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="780914ca8315121008b7c596feaad37d">780914ca8315121008b7c596feaad37d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 10:54:27</sys_created_on>
+        <sys_id>b80914ca8315121008b7c596feaad37d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>12748</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="780914ca8315121008b7c596feaad37d">780914ca8315121008b7c596feaad37d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 10:54:27</sys_created_on>
+        <sys_id>3c0914ca8315121008b7c596feaad37d</sys_id>
+    </sys_attachment_doc>
 </record_update>

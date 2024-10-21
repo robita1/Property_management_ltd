@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Maintenance">a5aa143d831d121008b7c596feaad36e</sc_cat_item>
+        <sc_category display_value="Property Management Services Ltd">4ed6cc798319121008b7c596feaad35b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 09:52:20</sys_created_on>
+        <sys_id>3aca400a8311121008b7c596feaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property Management Services Ltd.Maintenance</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sc_cat_item_category_3aca400a8311121008b7c596feaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 09:52:20</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

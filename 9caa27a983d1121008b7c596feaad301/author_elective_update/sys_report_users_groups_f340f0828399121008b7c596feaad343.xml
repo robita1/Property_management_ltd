@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">7b40f0828399121008b7c596feaad342</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 12:36:14</sys_created_on>
+        <sys_id>f340f0828399121008b7c596feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7b40f0828399121008b7c596feaad342</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_update_name>sys_report_users_groups_f340f0828399121008b7c596feaad343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 12:36:14</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</application>
+        <file_path/>
+        <instance_id>4d4b0ac61b9a869039a54089bd4bcbf1</instance_id>
+        <instance_name>dev272968</instance_name>
+        <name>sys_report_users_groups_f340f0828399121008b7c596feaad343</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">7b40f0828399121008b7c596feaad342</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-18 12:36:14</sys_created_on><sys_id>f340f0828399121008b7c596feaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7b40f0828399121008b7c596feaad342</sys_name><sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package><sys_policy/><sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope><sys_update_name>sys_report_users_groups_f340f0828399121008b7c596feaad343</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-18 12:36:14</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-116920517</payload_hash>
+        <record_name>7b40f0828399121008b7c596feaad342</record_name>
+        <reverted_from/>
+        <source>c359f43d8351521008b7c596feaad3d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 12:36:14</sys_created_on>
+        <sys_id>7340f0828399121008b7c596feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929fa0e5a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 12:36:14</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>7740f082a199121001d9b4eef33f6f44</update_guid>
+        <update_guid_history>7740f082a199121001d9b4eef33f6f44:-116920517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 12:37:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>1e8ea209b52640f8865ea4fd6a612071</sys_id>
+        <sys_metadata>f340f0828399121008b7c596feaad343</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7b40f0828399121008b7c596feaad342</sys_name>
+        <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
+        <sys_parent display_value="Type of Services">7b40f0828399121008b7c596feaad342</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
+        <sys_scope_delete display_value="">2ed4618112eb4004a458ccae47dadd90</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_f340f0828399121008b7c596feaad343</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_f340f0828399121008b7c596feaad343">7340f0828399121008b7c596feaad345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 12:37:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

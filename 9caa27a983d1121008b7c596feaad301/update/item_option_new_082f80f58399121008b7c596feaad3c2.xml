@@ -5,7 +5,7 @@
         <cat_item display_value="Rental Property ">5cfd44f58399121008b7c596feaad39c</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>full_addresss</choice_field>
+        <choice_field>address</choice_field>
         <choice_table>x_1542827_proper_0_property_address</choice_table>
         <create_roles/>
         <default_html_value/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 15:37:29</sys_created_on>
         <sys_id>082f80f58399121008b7c596feaad3c2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Please pick your preferred property</sys_name>
         <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>item_option_new_082f80f58399121008b7c596feaad3c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 16:18:13</sys_updated_on>
+        <sys_updated_on>2024-10-19 20:16:19</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

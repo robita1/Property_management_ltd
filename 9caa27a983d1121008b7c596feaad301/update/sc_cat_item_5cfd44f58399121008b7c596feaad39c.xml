@@ -8,7 +8,7 @@
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<table style="border-collapse: collapse; width: 100.04%;" border="1"><tbody><tr><td style="width: 23.6183%;"><img title="images (6).jpg" src="/sys_attachment.do?sys_id&#61;39a2587d8399121008b7c596feaad3e3" alt="" width="271" height="180" /></td><td style="width: 23.6183%;"><img title="Feature-3-1.jpg" src="/sys_attachment.do?sys_id&#61;bdb2943d8399121008b7c596feaad320" alt="" width="272" height="180" /></td><td style="width: 23.6183%;"><img title="Kitchen-Depot_5G_Grooved_Livia_Legno-Black_RGB-scaled.jpg" src="/sys_attachment.do?sys_id&#61;eae2503d8399121008b7c596feaad39d" alt="" width="269" height="179" /></td><td style="width: 23.6183%;"><img title="living-room-luxury-home-10171080.webp" src="/sys_attachment.do?sys_id&#61;6353583d8399121008b7c596feaad38d" alt="" width="273" height="182" /></td></tr><tr><td style="width: 23.6183%;">
@@ -25,7 +25,7 @@
 </td><td style="width: 23.5996%;"> </td><td style="width: 23.5996%;"> </td><td style="width: 23.5996%;"> </td></tr></tbody></table>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Onboarding new Tenants">58765e1e8319121008b7c596feaad33a</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -77,21 +77,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 15:32:21</sys_created_on>
         <sys_id>5cfd44f58399121008b7c596feaad39c</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Rental Property </sys_name>
         <sys_package display_value="Property Management Ltd" source="x_1542827_proper_0">9caa27a983d1121008b7c596feaad301</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management Ltd">9caa27a983d1121008b7c596feaad301</sys_scope>
         <sys_update_name>sc_cat_item_5cfd44f58399121008b7c596feaad39c</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-10-17 16:21:24</sys_updated_on>
+        <sys_updated_on>2024-10-19 20:16:20</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>30</version>
+        <version>36</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
