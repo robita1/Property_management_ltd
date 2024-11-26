@@ -1,52 +1,56 @@
-application:
 Property Management Ltd Application
+
 Overview
-The Property Management Ltd application is designed to streamline tenant management and booking requests. It features three primary tables:
 
-Tenants - Stores all relevant tenant information.
-Management Booking - A form that allows tenants to submit service requests, such as maintenance issues or inspections.
-Property Listings - Contains details about property addresses and their availability.
+The Property Management Ltd Application is designed to streamline tenant management and booking requests. It includes features for tenant data storage, property listings, and service request management.
 
-Booking Form Functionality
-The Management Booking form includes several fields:
-
-Tenant Details: Information about the tenant.
-Urgency: A dropdown to indicate the priority level (1, 2, or 3).
+Key Features
+1. Tenant Management
+Tenants Table: Stores all relevant tenant information (e.g., full names, addresses, emails, and phone numbers).
+Email Handling: Protects tenant information using validation.
+A flow checks the submitted email against the tenant details table.
+Populates tenant information (full name, address, phone number) securely.
+2. Booking Requests
+Management Booking Form Table:
+Includes fields for:
+Tenant Details: Basic tenant information.
+Urgency: Priority dropdown (Levels 1, 2, or 3).
 Type of Service: Options for maintenance or inspection.
-If maintenance is selected, a dependent field appears allowing tenants to specify the type of service needed (e.g., structure, plumbing, appliance, or other).
-If inspection is selected, a field for date and time becomes available.
-UI Policies and Actions are used to dynamically show or hide fields based on tenant selections. Notifications are set up to alert employees or managers of pending tasks.
+If Maintenance: Dependent fields for service type (e.g., structure, plumbing, appliance, other).
+If Inspection: Fields for scheduling date and time appear dynamically.
+UI Policies and Actions: Dynamically show or hide fields based on tenant selections.
+Notifications: Alerts employees or managers about pending tasks.
+3. Property Listings
+Property Address Table:
+Stores property addresses and their availability.
 
-Email Handling
-To protect tenant information, two email fields are included in the form. When a tenant submits their email, a flow checks it against the tenant details table. If there’s a match, it populates the tenant's information (full name, address, phone number) while safeguarding against unauthorized access to data from other tenants.
+Service Catalog:
+Maintenance Record Producer: Fields for tenant email, service type, conditional service details, and descriptions of tenant issues.
+Handyman Insurance: An optional service with three pricing options (Premium, Standard, Basic).
+Rental Property Submission: Fields for property selection, monthly income confirmation (over $4000), full name, phone number, and email.
+Approved applicants are converted into tenants who can submit maintenance requests.
 
-Table Structures
+Automation and Workflows: Handyman Insurance:
+Verifies tenant status before processing requests.
+Update Fields for maintenance Task Assignment:
+Routes tasks based on urgency and service type, with inspections assigned to managers.
+Inspection Reminder:
+Sends email reminders six months after an inspection request.
+New Tenant Onboarding:
+Validates income and property availability, updating records as necessary.
+Look up Tenant details: To populate tenant details
 
-Tenant Details Table: Contains full names, addresses, emails, and phone numbers.
-Property Address Table: Stores available properties and their addresses.
-Service Catalog Integration
-To ensure tenants can easily access the booking form, I've created catalog items and a record producer:
+Business rules: for separating full addresses into street, postcode, country code, and city for improved data management.
 
-Maintenance Record Producer: This includes fields for the email mentioned above, type of service, service details (conditional based on maintenance or inspection), and a description field for tenant issues.
-Handyman Insurance: An optional service with three pricing options (premium, standard, basic) that tenants can select.
-Rental Property Submission: Allows prospective tenants to request rental properties. The form includes fields for property selection, monthly income confirmation (over $4000), full name, first name, phone number, and email. Approved applicants become tenants and can submit maintenance requests.
 Dashboard and Reporting:
-A dashboard is generated for managers monthly, displaying:
+A consolidated manager dashboard displays:
+Number of bookings.
+Property availability.
+Types of services requested.
+Number of tenants.
+Reports are generated monthly for strategic insights.
 
-Number of bookings
-Property availability
-Types of services requested
-Number of tenants
-Reports are consolidated into a single dashboard for easy viewing.
-Knowledge Article:
-A tenancy agreement article is accessible in the knowledge section for tenant reference.
+Knowledge Management:
+Tenancy Agreement for tenant.
 
-Flow Implementation:
-Five key flows have been established to automate processes:
 
-Handyman Insurance Booking: Checks if the requester is a tenant and processes the request accordingly.
-Maintenance Task Assignment: Assigns tasks based on urgency and type, with inspections routed to managers.
-Inspection Reminder: Sends an email reminder six months after an inspection request.
-New Tenant Onboarding: Validates tenant income and property availability, updating records as necessary.
-Address Parsing: Uses advanced business rules to separate full addresses into street, postcode, country code, and city for better data management.
-Future Development
